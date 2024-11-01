@@ -1,0 +1,400 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "20240820_165103_68_24bf",
+  "properties": {
+    "updated": "2024-08-21T09:10:06Z",
+    "created": "2024-08-21T03:08:02Z",
+    "gsd": 3.7,
+    "constellation": "planetscope",
+    "platform": "24bf",
+    "instruments": [
+      "PSB.SD"
+    ],
+    "eo:cloud_cover": 0,
+    "view:off_nadir": 2.5,
+    "view:azimuth": 102.7,
+    "view:sun_azimuth": 128.9,
+    "view:sun_elevation": 52.8,
+    "pl:ground_control": true,
+    "pl:item_type": "PSScene",
+    "pl:pixel_resolution": 3,
+    "pl:publishing_stage": "finalized",
+    "pl:quality_category": "standard",
+    "pl:strip_id": "7521352",
+    "published": "2024-08-21T03:08:02Z",
+    "datetime": "2024-08-20T16:51:03.687215Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -101.06639789,
+          39.38495273
+        ],
+        [
+          -101.06639789,
+          39.38723832
+        ],
+        [
+          -101.06405297,
+          39.38723832
+        ],
+        [
+          -101.06405297,
+          39.38495273
+        ],
+        [
+          -101.06639789,
+          39.38495273
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./PSScene_collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./PSScene_collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "20240820_165103_68_24bf_metadata_json": {
+      "href": "./20240820_165103_68_24bf_metadata.json",
+      "type": "application/json",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "20240820_165103_68_24bf_3B_AnalyticMS_8b_metadata_clip_xml": {
+      "href": "./20240820_165103_68_24bf_3B_AnalyticMS_8b_metadata_clip.xml",
+      "type": "text/xml",
+      "pl:asset_type": "ortho_analytic_8b_xml",
+      "pl:bundle_type": "analytic_8b_sr_udm2",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "20240820_165103_68_24bf_3B_udm2_clip_tif": {
+      "href": "./20240820_165103_68_24bf_3B_udm2_clip.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "pl:asset_type": "ortho_udm2",
+      "pl:bundle_type": "analytic_8b_sr_udm2",
+      "raster:bands": [
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 1.0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 0.0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 0.0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 0.0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 0.0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 0.0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 99.0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 1.0
+          }
+        }
+      ],
+      "eo:bands": [
+        {
+          "name": "B1",
+          "description": "Clear map (0: not clear, 1: clear)"
+        },
+        {
+          "name": "B2",
+          "description": "Snow map (0: no snow or ice, 1: snow or ice)"
+        },
+        {
+          "name": "B3",
+          "description": "Shadow map (0: no shadow, 1: shadow)"
+        },
+        {
+          "name": "B4",
+          "description": "Light haze map (0: no light haze, 1: light haze)"
+        },
+        {
+          "name": "B5",
+          "description": "Heavy haze map (0: no heavy haze, 1: heavy haze)"
+        },
+        {
+          "name": "B6",
+          "description": "Cloud map (0: no cloud, 1: cloud)"
+        },
+        {
+          "name": "B7",
+          "description": "Confidence map (percentage value: per-pixel algorithmic confidence in classification)"
+        },
+        {
+          "name": "B8",
+          "description": "Unusable pixels"
+        }
+      ],
+      "proj:epsg": 32614,
+      "proj:bbox": [
+        322032.0,
+        4361526.0,
+        322242.0,
+        4361790.0
+      ],
+      "proj:shape": [
+        88,
+        70
+      ],
+      "proj:transform": [
+        3.0,
+        0.0,
+        322032.0,
+        0.0,
+        -3.0,
+        4361790.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "roles": [
+        "data",
+        "snow-ice",
+        "cloud",
+        "cloud-shadow"
+      ]
+    },
+    "20240820_165103_68_24bf_3B_AnalyticMS_SR_8b_clip_tif": {
+      "href": "./20240820_165103_68_24bf_3B_AnalyticMS_SR_8b_clip.tif",
+      "type": "image/tiff",
+      "pl:asset_type": "ortho_analytic_8b_sr",
+      "pl:bundle_type": "analytic_8b_sr_udm2",
+      "raster:bands": [
+        {
+          "nodata": 0.0,
+          "data_type": "uint16",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 141.0,
+            "maximum": 755.0
+          },
+          "scale": 0.0001
+        },
+        {
+          "nodata": 0.0,
+          "data_type": "uint16",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 262.0,
+            "maximum": 886.0
+          },
+          "scale": 0.0001
+        },
+        {
+          "nodata": 0.0,
+          "data_type": "uint16",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 416.0,
+            "maximum": 1155.0
+          },
+          "scale": 0.0001
+        },
+        {
+          "nodata": 0.0,
+          "data_type": "uint16",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 493.0,
+            "maximum": 1356.0
+          },
+          "scale": 0.0001
+        },
+        {
+          "nodata": 0.0,
+          "data_type": "uint16",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 379.0,
+            "maximum": 1469.0
+          },
+          "scale": 0.0001
+        },
+        {
+          "nodata": 0.0,
+          "data_type": "uint16",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 377.0,
+            "maximum": 1485.0
+          },
+          "scale": 0.0001
+        },
+        {
+          "nodata": 0.0,
+          "data_type": "uint16",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 529.0,
+            "maximum": 1696.0
+          },
+          "scale": 0.0001
+        },
+        {
+          "nodata": 0.0,
+          "data_type": "uint16",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 2556.0,
+            "maximum": 3971.0
+          },
+          "scale": 0.0001
+        }
+      ],
+      "eo:bands": [
+        {
+          "name": "Coastal Blue",
+          "common_name": "coastal",
+          "center_wavelength": 0.442,
+          "full_width_half_max": 0.021
+        },
+        {
+          "name": "Blue",
+          "common_name": "blue",
+          "center_wavelength": 0.49,
+          "full_width_half_max": 0.05
+        },
+        {
+          "name": "Green I",
+          "center_wavelength": 0.531,
+          "full_width_half_max": 0.036
+        },
+        {
+          "name": "Green",
+          "common_name": "green",
+          "center_wavelength": 0.565,
+          "full_width_half_max": 0.036
+        },
+        {
+          "name": "Yellow",
+          "common_name": "yellow",
+          "center_wavelength": 0.61,
+          "full_width_half_max": 0.02
+        },
+        {
+          "name": "Red",
+          "common_name": "red",
+          "center_wavelength": 0.665,
+          "full_width_half_max": 0.03
+        },
+        {
+          "name": "Red Edge",
+          "common_name": "rededge",
+          "center_wavelength": 0.705,
+          "full_width_half_max": 0.016
+        },
+        {
+          "name": "Near-Infrared",
+          "common_name": "nir",
+          "center_wavelength": 0.865,
+          "full_width_half_max": 0.04
+        }
+      ],
+      "proj:epsg": 32614,
+      "proj:bbox": [
+        322032.0,
+        4361526.0,
+        322242.0,
+        4361790.0
+      ],
+      "proj:shape": [
+        88,
+        70
+      ],
+      "proj:transform": [
+        3.0,
+        0.0,
+        322032.0,
+        0.0,
+        -3.0,
+        4361790.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "roles": [
+        "data",
+        "reflectance"
+      ]
+    }
+  },
+  "bbox": [
+    -101.06639789,
+    39.38495273,
+    -101.06405297,
+    39.38723832
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "collection": "74b8aa58-da06-4c78-a6a8-80e0551f3868: PSScene"
+}
